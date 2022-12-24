@@ -1,47 +1,60 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Página de testes Capitol</title>
     <!--
+        Primeiro teste do js, alterando no HEAD do HTML
         <script src="primeiro.js"></script>
         <script src="input-output.js"></script>
     -->
     <meta charset="UTF-8">
     <meta name="author" content="Ronaldo Capitol">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <style type="text/css">
+    body {
+        text-align: center;
+        background-color: grey;
+    }
+    button{
+        height: 25px;
+    }
+    </style>
 </head>
-
 <body>
     <!-- Aqui aciona estrutura de calculadora -->
-    <p id="paragrafo">Texto para ser mudado ao clicar no botão "Iniciar Ação" - Calculadora</p>
+    <h3 id="paragrafo">Texto para ser mudado ao clicar no botão "Iniciar Ação" - Calculadora básica</h3>
     <button onclick="acaoBotao()">Iniciar Calculadora</button>
     <script src="estrutura-se-senao.js"></script>
-
+    <br/>
+    <br/>
     <!-- Programa para concatenar o Nome e a idade -->
-    <p id="concatenar"> Aqui acionará programa para concatenar</p>
+    <h3 id="concatenar"> Aqui acionará programa para concatenar</h3>
     <button onclick="concat()">Iniciar Concatenação</button>
     <script src="concatenacao.js"></script>
-
+    <br/>
+    <br/>
     <!-- Programa de fatorial -->
-    <p id="fatorial"> Aqui acionará o programa de fatorial</p>
+    <h3 id="fatorial"> Aqui acionará o programa de fatorial</h3>
     <button onclick="fatorial()">Iniciar fatorial</button>
     <script src="fatorial.js"></script>
-
+    <br/>
+    <br/>
     <!-- Programa enquanto -->
-    <p id="enquanto">Aqui acionará um programa de estrutura de controle de repetição - Enquanto - While</p>
+    <h3 id="enquanto">Aqui acionará um programa de estrutura de controle de repetição - Enquanto - While</h3>
     <button onclick="enquanto()">Iniciar While</button>
     <script src="enquanto.js"></script>
-
+    <br/>
+    <br/>
     <!-- Programa para laço de repetição -->
-    <p id="repita">Aqui acionará o programa de estrutura de controle de repetição - Repita - DoWhile</p>
+    <h3 id="repita">Aqui acionará o programa de estrutura de controle de repetição - Repita - DoWhile</h3>
     <button onclick="repita()">Iniciar DoWhile</button>
     <script src="repita.js"></script>
-
+    <br/>
+    <br/>
     <!-- Programa com 3 tipos de execução -->
-    <p id="program">Texto para ser mudado ao clicar no botão "Iniciar Programa"</p>
-    <button onclick="myProgram()">Iniciar Programa</button>
+    <h2>3 Programas integrados</h2>
+    <h3 id="program">Texto para ser mudado ao clicar no botão "Iniciar Programa"Este botão aciona um englomerado de códigos que foi produzido no começo do curso afim de testar o aprendiado</h3>
+    <button style="color: white;background-color: red;" onclick="myProgram()">Iniciar Programa</button>
     <script src="my-program.js"></script>
 </body>
 

@@ -1,3 +1,11 @@
+/*
+Algoritmo "Testando IF - Se"
+// Disciplina  : [Linguagem e Lógica de Programação]
+// Descrição   : Programas básicos para testar laços If else - se senao
+// Autor(a)    : Ronaldo Capitol
+// Data atual  : 29/10/2022
+*/
+
 function acaoBotao(params) {
 
     var valor1, valor2, resultado, operacao

@@ -1,3 +1,11 @@
+/*
+Algoritmo "Mini programa gerado no Portugol"
+// Disciplina  : [Linguagem e Lógica de Programação]
+// Descrição   : Programas para execução de 3 tipos de programas
+// Autor(a)    : Ronaldo Capitol
+// Data atual  : 29/10/2022
+*/
+
 function myProgram(params) {
     var opcao, n, no, not, nota, media, mediaEscolar, nomeImc, totalImc, altura, peso, pri, seg, ter, qua, qui, sex, pNumero, sNumero, totalCalc, tpSelecionado;
 

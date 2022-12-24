@@ -1,3 +1,11 @@
+/*
+Algoritmo "Testando while - enquanto"
+// Disciplina  : [Linguagem e Lógica de Programação]
+// Descrição   : Programas básicos para testar laços while
+// Autor(a)    : Ronaldo Capitol
+// Data atual  : 23/12/2022
+*/
+
 function enquanto(params) {
     var qtdLooping, idade, contador, nome
 
