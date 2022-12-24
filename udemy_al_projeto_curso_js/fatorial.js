@@ -1,3 +1,10 @@
+/*
+Algoritmo "Mini programa para fatorial"
+// Disciplina  : [Linguagem e Lógica de Programação]
+// Descrição   : Programas básicos para testar fatorial
+// Autor(a)    : Ronaldo Capitol
+// Data atual  : 23/12/2022
+*/
 function fatorial(params) {
 
     var numero, fatorial
